@@ -1,0 +1,71 @@
+.navbar-brand {
+  font-size: 40px;
+}
+
+.btn-outline-success {
+  color: rgb(11, 51, 51);
+  border-color: rgb(11, 51, 51);
+}
+
+.btn-outline-success:hover {
+  background-color: rgb(11, 51, 51);
+  border-color: rgb(11, 51, 51);
+  color: white;
+}
+
+main .main_section {
+  text-align: center;
+}
+
+main .main_section p:nth-child(1) {
+  font-size: 30px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+main .main_section p:nth-child(2) {
+  margin-top: 30px;
+}
+
+main .main_section .btn-dark {
+  margin-top: 30px;
+}
+
+main .card_section {
+  margin-top: 100px;
+}
+
+main .card_section .card-text {
+  font-size: 30px;
+  text-align: center;
+}
+
+footer {
+  height: 272px;
+  background-color: #000000;
+  margin-top: 50px;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+footer .title_area {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #585858;
+}
+
+footer .link_area {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .link_area a{
+  cursor: pointer;
+}
